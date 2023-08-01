@@ -2,6 +2,7 @@
 
 for f in $(ls *.c)
 do
-	echo $f
+	        echo ${f%.c}
 done
+
 
